@@ -1,0 +1,59 @@
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(56, 55, 55, 0.6);
+  }
+
+  .filterInput {
+    padding: 14px 15px;
+    color: rgb(32, 32, 32);
+    border: 1px solid rgb(58, 58, 58);
+    border-radius: 5px;
+    outline: none;
+    width: 45%;
+  }
+
+  .filterSelect{
+    padding: 14px 15px;
+    font-family: roboto;
+    color: rgb(32, 32, 32);
+    border: 1px solid rgb(58, 58, 58);
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+  }
+
+  .filterBtn{
+    padding: 14px 15px;
+    font-family: roboto;
+    border: 1px solid rgb(58, 58, 58);
+    border-radius: 5px;
+    outline: none;
+    width: 40%;
+    font-weight: bold;
+  }
+
+
+  /* HERE WE ARE WRITING THE CSS FOR THE ADD DEVICE  */
+
+  .addDeviceInput{
+    padding: 14px 15px;
+    color: rgb(32, 32, 32);
+    border: 1px solid rgb(58, 58, 58);
+    border-radius: 5px;
+    outline: none;
+    width: 31%;
+  }
+
+  .addDeviceBtn{
+    padding: 14px 15px;
+    font-family: roboto;
+    border: 1px solid rgb(58, 58, 58);
+    border-radius: 5px;
+    outline: none;
+    width: 30%;
+    font-weight: bold;
+  }

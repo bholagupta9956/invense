@@ -1,0 +1,23 @@
+.layoutsContainer::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  .layoutsContainer::-webkit-scrollbar-thumb {
+    background: #26a64e  ;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .layoutsContainer::-webkit-scrollbar-thumb:hover {
+    background: #26a64e ;
+  }
+  .layoutsContainer::-webkit-scrollbar {
+    width: 6px;
+  }
+
+.layoutsContainer{
+    height: 100vh;
+    overflow-y: scroll;
+}

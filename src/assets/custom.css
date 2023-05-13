@@ -1,0 +1,118 @@
+:root{
+  --primaryColor: '#1F2937',
+}
+/* Font-Family  */
+body {
+  font-family: "Heebo", sans-serif;
+}
+
+/* Check Box */
+.p-checkbox-icon .p-c .pi .pi-check{
+  /* @apply !text-primaryColor */
+}
+
+/*  */
+.p-button.p-component.p-datepicker-trigger.p-button-icon-only span{
+ color: #1F2937;
+ font-weight: 700;
+}
+.p-datepicker-header{
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+.p-datepicker-month{
+  margin-right: 10px;
+  
+}
+.p-datepicker-year{
+  
+}
+.p-datepicker-calendar tbody tr td span {
+  width: 30px;
+  height: 30px;
+  padding: 0px;
+  margin: auto;
+  border-radius: 50%;
+  text-align: center;
+  
+}
+.p-datepicker-calendar tbody tr td span:hover{
+  border: 1px solid #1F2937;
+}
+.p-datepicker-calendar tbody tr td span.p-highlight{
+  background-color: #1F2937;
+  color: white;
+}
+.p-datepicker-other-month{
+  color: #1F2937;
+  opacity: 0.5;
+}
+.p-timepicker{
+
+}
+.p-timepicker .p-separator{
+  margin: 0 10px;
+}
+.p-timepicker .p-ampm-picker span{
+  /* color: blue; */
+}
+
+
+
+/*  */
+.p-tabview-selected.p-highlight{
+  color: white;
+  background-color: #1F2937;
+  border: none;
+}
+
+/* OVerlay PAnel */
+.p-overlaypanel:after, .p-overlaypanel:before{
+  content: none !important;
+}
+
+
+/* Table  */
+/* Table Footer */
+.p-datatable-thead{
+  border-bottom: 1px solid #e4e4e4;
+
+}
+
+/* Table Body */
+.p-datatable-tbody tr{
+  border-bottom: 1px solid #e4e4e4;
+}
+
+/* Table Footer */
+
+.p-paginator.p-component.p-paginator-bottom{
+  /* border: 1px solid black !important; */
+  padding: 14px 4px;
+  width: 100%;
+  color: #3D404E;
+
+}
+
+.p-paginator.p-component.p-paginator-bottom .p-dropdown.p-component.p-inputwrapper.p-inputwrapper-filled{
+  margin-right: 40px;
+  border-bottom: 2px solid #e4e4e4;
+  width: 70px;
+}
+.p-dropdown-panel.p-component.p-connected-overlay-exit.p-connected-overlay-exit-active{
+  background-color: white;
+  border: 1px solid #e4e4e4; 
+  color: #3D404E;
+   padding: 0 10px;
+}
+.p-dropdown-panel.p-component.p-connected-overlay-enter-done{
+  background-color: white;
+  border: 1px solid #e4e4e4; 
+  color: #3D404E;
+   padding: 0 10px;
+ 
+}
+.p-paginator-current {
+  margin-right: 40px;
+}

@@ -1,0 +1,100 @@
+.customDataTables::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.customDataTables::-webkit-scrollbar-thumb {
+  background: #26a64e;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.customDataTables::-webkit-scrollbar-thumb:hover {
+  background: #26a64e;
+}
+
+
+.customDataTables::-webkit-scrollbar {
+  width: 6px;
+}
+
+
+.overflowCont::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.overflowCont::-webkit-scrollbar-thumb {
+  background: #26a64e;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.overflowCont::-webkit-scrollbar-thumb:hover {
+  background: #26a64e;
+}
+.overflowCont::-webkit-scrollbar {
+  width: 6px;
+}
+
+.customTableHead th:first-child {
+  display: none;
+}
+
+.customTableContent td:first-child {
+  display: none;
+}
+
+.customTableHead {
+  padding-left: 7px;
+}
+
+.customTableContent {
+  padding-left: 7px;
+}
+
+
+.tableSearchBox{
+  border: 2px solid rgb(173, 171, 171);
+  outline: none;
+  font-family: 'roboto';
+  padding: 6px 8px;
+  font-size: 13px;
+  border-radius: 3px;
+  font-weight: bold;
+  width: 230px;
+}
+
+
+/* here we are writing css for tableForCrud file  */
+
+.tableCont {
+  max-height: 70vh !important;
+  overflow-y: auto;
+  margin-top: 16px;
+}
+.tableCont::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.tableCont::-webkit-scrollbar-thumb {
+  background: #26a64e  ;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.tableCont::-webkit-scrollbar-thumb:hover {
+  background: #26a64e ;
+}
+.tableCont::-webkit-scrollbar {
+  width: 6px;
+  padding-top: 0px;
+}
+
+.tableCont table {
+  margin-top: 0px;
+}

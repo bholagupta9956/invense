@@ -1,0 +1,64 @@
+@tailwind case;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #26a64e;
+  --lightBlack: "#363334";
+  --fullBlack: "#0b0313";
+  --primaryColor: "#32aa57";
+  --surfaceColor: "#f2f5fc";
+  --lightGreen: "#effff3";
+}
+
+@layer base {
+  @font-face {
+    font-family: "productSans-Black";
+    src: url("./fonts/PRODUCTSANS-BLACK.TTF") format("TTF");
+  }
+
+  @font-face {
+    font-family: "productSans-BlackItalic";
+    src: url("./fonts/PRODUCTSANS-BLACKITALIC.TTF") format("TTF");
+  }
+  @font-face {
+    font-family: "productSans-Bold";
+    src: url("./fonts/PRODUCTSANS-BOLD.TTF") format("TTF");
+  }
+  @font-face {
+    font-family: "productSans-BoldItalic";
+    src: url("./fonts/PRODUCTSANS-BOLDITALIC.TTF") format("TTF");
+  }
+  @font-face {
+    font-family: "productSans-Italic";
+    src: url("./fonts/PRODUCTSANS-ITALIC.TTF") format("TTF");
+  }
+  @font-face {
+    font-family: "productSans-Light";
+    src: url("./fonts/PRODUCTSANS-LIGHT.TTF") format("TTF");
+  }
+  @font-face {
+    font-family: "productSans-LightItalic";
+    src: url("./fonts/PRODUCTSANS-LIGHTITALIC.TTF") format("TTF");
+  }
+  @font-face {
+    font-family: "productSans-Meduim";
+    src: url("./fonts/PRODUCTSANS-MEDIUM.TTF") format("TTF");
+  }
+  @font-face {
+    font-family: "productSans-MediumItalic";
+    src: url("./fonts/PRODUCTSANS-MEDIUMITALIC.TTF") format("TTF");
+  }
+  @font-face {
+    font-family: "productSans-Regular";
+    src: url("./fonts/PRODUCTSANS-REGULAR.TTF") format("TTF");
+  }
+  @font-face {
+    font-family: "productSans-Thin";
+    src: url("./fonts/PRODUCTSANS-THIN.TTF") format("TTF");
+  }
+  @font-face {
+    font-family: "productSans-ThinItalic";
+    src: url("./fonts/PRODUCTSANS-THINITALIC.TTF") format("TTF");
+  }
+}

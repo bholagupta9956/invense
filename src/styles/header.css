@@ -1,0 +1,18 @@
+/* here we are writing all the css of the headers */
+.headerContainer {
+   /* font-family: 'productSans-Regular'; */
+}
+
+.title{
+    font-family: 'productSans-Italic !important';
+}
+
+.userSelect {
+    padding: 5px 19px;
+    border: 1px solid gray;
+    margin-left: 6px;
+    color: rgb(95, 95, 95);
+    outline: none;
+    border-radius: 3px;
+    font-family: 'roboto';
+}

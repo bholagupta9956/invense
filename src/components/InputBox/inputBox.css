@@ -1,0 +1,63 @@
+
+
+ 
+
+  .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input:invalid {
+    box-shadow: none;
+    /* border: 2px solid rgb(112, 112, 112) !important; */
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+    /* border: 2px solid rgb(195 195 195) !important; */
+    border-radius: 4px !important;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+   
+    height: 15px !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+    color: #515050 !important;
+}
+
+label#\:r2\:-label {
+    color: gray;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+    font-weight: 700 !important;
+}
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 14px !important;
+    font-weight: bold !important;
+   
+}
+
+fieldset.MuiOutlinedInput-notchedOutline {
+    border-color: rgb(146, 145, 145) ;
+    border-width:  2px;
+}
+
+.rmsc .dropdown-container {
+    position: relative;
+    outline: 0;
+    background-color: var(--rmsc-bg);
+    border: 2px solid rgb(146, 145, 145);
+    height: 48px;
+    z-index: 100;
+}
+
+.rmsc .dropdown-content {
+    background-color: white !important;
+}
+
+.css-1wc848c-MuiFormHelperText-root.Mui-error {
+    color: #d32f2f !important;
+    margin: 2px 0px !important;
+    font-weight: bold !important;
+}
